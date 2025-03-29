@@ -10,7 +10,7 @@ This guide will walk you through the installation and configuration process to g
 
 ### 1. Create a Sentry Project
 
-![Create Project](images/1-create-project)
+![Create Project](images/1-create-project.png)
 
 1. Log in to [Sentry](https://sentry.io/) and create a new project.
 2. Select **PHP** as the platform (since MTA:SA is not officially supported).
@@ -21,15 +21,15 @@ This guide will walk you through the installation and configuration process to g
 
 ### 2. Configuration
 
-![DSN Configuration](images/2-dsn)
+![DSN Configuration](images/2-dsn.png)
 
 #### Extract and Set DSN Parts
 
 Your DSN URL will look something like this:
 
-```
+`
 https://1b32dd438ee813fde848836d713a4987@o4506067536969728.ingest.us.sentry.io/4509063625375744
-```
+`
 
 Break it down into the following variables for `meta.xml`:
 
@@ -66,7 +66,7 @@ testsentry
 
 This will start the resource and send a test error to verify functionality.
 
-![Test Result](images/3-test-result)
+![Test Result](images/3-test-result.png)
 
 ---
 
