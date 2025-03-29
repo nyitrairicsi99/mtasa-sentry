@@ -1,0 +1,33 @@
+<meta>
+    <min_mta_version client="1.6" server="1.6"></min_mta_version>
+        
+    <script src="shared/data.lua" type="shared" cache="false" />
+    <script src="shared/utils.lua" type="shared" cache="false" />
+    <script src="shared/logger.lua" type="shared" cache="false" />
+    <script src="server/server.lua" type="server" />
+    <script src="server/console.lua" type="server" />
+    <script src="client/client.lua" type="client" cache="false" />
+
+    <aclrequest>
+        <right name="function.fetchRemote" access="true" />
+    </aclrequest>
+
+    <settings>
+        <setting name="@key" value="1b32dd438ee813fde848836d713a4987"/>
+        <setting name="@host" value="o4506067536969728.ingest.us.sentry.io"/>
+        <setting name="@project" value="4509063625375744"/>
+        <setting name="@logClient" value="1"/>
+        <setting name="@logErrors" value="1"/>
+        <setting name="@logWarnings" value="1"/>
+        <setting name="@msBetweenReports" value="3600000"/>
+        <!--
+        <setting name="@key" value="********************************"/>
+        <setting name="@host" value="*****************.ingest.sentry.io"/>
+        <setting name="@project" value="****************"/>
+        <setting name="@logClient" value="1"/>
+        <setting name="@logErrors" value="1"/>
+        <setting name="@logWarnings" value="0"/>
+        <setting name="@msBetweenReports" value="3600000"/>
+        -->
+    </settings>
+</meta>
