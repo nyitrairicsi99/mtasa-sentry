@@ -13,14 +13,6 @@
     </aclrequest>
 
     <settings>
-        <setting name="@key" value="1b32dd438ee813fde848836d713a4987"/>
-        <setting name="@host" value="o4506067536969728.ingest.us.sentry.io"/>
-        <setting name="@project" value="4509063625375744"/>
-        <setting name="@logClient" value="1"/>
-        <setting name="@logErrors" value="1"/>
-        <setting name="@logWarnings" value="1"/>
-        <setting name="@msBetweenReports" value="3600000"/>
-        <!--
         <setting name="@key" value="********************************"/>
         <setting name="@host" value="*****************.ingest.sentry.io"/>
         <setting name="@project" value="****************"/>
@@ -28,6 +20,5 @@
         <setting name="@logErrors" value="1"/>
         <setting name="@logWarnings" value="0"/>
         <setting name="@msBetweenReports" value="3600000"/>
-        -->
     </settings>
 </meta>
